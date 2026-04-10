@@ -112,12 +112,12 @@ public class GameGUI extends JComponent implements KeyListener
     for (int i = 0; i < lines.size(); i++)
     {
       String[] parts = lines.get(i).split("\\|");
-      quiz[i][0] = parts[0]; // question
-quiz[i][1] = parts[1]; // choice A
-quiz[i][2] = parts[2]; // choice B
-quiz[i][3] = parts[3]; // choice C
-quiz[i][4] = parts[4]; 
-quiz[i][5] = parts[5];// correct answer (A/B/C)
+      quiz[i][0] = parts[0]; 
+      quiz[i][1] = parts[1]; 
+      quiz[i][2] = parts[2]; 
+      quiz[i][3] = parts[3]; 
+      quiz[i][4] = parts[4]; 
+      quiz[i][5] = parts[5];
     }
   }
   catch (IOException e)
